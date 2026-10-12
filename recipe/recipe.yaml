@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.32.1"
+  version: "3.32.2"
 
 package:
   name: freerdp
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/FreeRDP/FreeRDP/releases/download/${{ version }}/freerdp-${{ version }}.tar.gz
-  sha256: 3021cf8848efbd0064664e187cb61e6101e4e74a4d8ffb495d9f7715e22d67de
+  sha256: e95a505c0057e4d06a3b120477c421028769deba4db9c639ef3465d050f0955c
 
 build:
   number: 0
